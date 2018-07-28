@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.attebion.api.alapuerta.fragments.ConnectionErrorFragment">
+
+
+    <ImageView
+        android:layout_margin="100dp"
+        android:padding="5dp"
+        android:id="@+id/iv_network_error"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+        <!--android:src="@drawable/networkerror" -->
+
+
+
+
+    <TextView
+        android:id="@+id/tv_network_error_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/internet_connection_error_msg"
+        android:layout_gravity="top"
+        android:gravity="center"/>
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:text="@string/retry"
+        android:id="@+id/btn_retry"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>

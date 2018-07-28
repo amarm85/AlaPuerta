@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">A la Puerta</string>
+
+    <!-- comment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="internet_connection_error_msg">You are not connected to Internet</string>
+    <string name="share_preference_key">devicedi1235</string>
+    <string name="retry">Retry</string>
+    <string name="error_message_for_invalid_input">Invalid Input provided </string>
+    <string name="app_type">C</string>
+
+
+    <!-- Strings for login page -->
+    <string name="go_to_sign_page">No account yet? Create one!</string>
+    <string name="login_email">Email</string>
+    <string name="login_login">Login</string>
+    <string name="login_password">Password</string>
+    <string name="login_forget_password_text">Dont remember Password ?</string>
+    <string name="login_email_error">Enter a valid Email Address</string>
+    <string name="login_password_error">Enter a valid Password</string>
+    <string name="login_api_url">http://www.api.attebion.com/login</string>
+
+    <!-- Strings for Sign in page -->
+    <string name="signin_password">Password(> 4 char)Alphanumeric</string>
+    <string name="signin_password_reenter">Reenter the Password</string>
+    <string name="input_first_name">First Name</string>
+    <string name="input_last_name">Last Name</string>
+    <string name="input_dob">Date of Birth</string>
+    <string name="go_to_login">Already have account? Go to Login</string>
+    <string name="signin_btn">Create Profile...</string>
+    <string name="signin_age_text_checkbox">I am 18 years old</string>
+    <string name="sigin_reenter_password_error_msg">Password does not match ! Reenter same password</string>
+    <string name="signin_term_cond_msg">I read and agreed with terms</string>
+    <string name="siginin_age_conf_error_msg">Please confirm your age</string>
+    <string name="sigin_term_cond_error_msg">Please agree with Team and conditions</string>
+    <string name="signin_name_check_error_msg">Only letter and white space allowed in name</string>
+    <string name="signin_api_url">http://www.api.attebion.com/registration</string>
+
+    <!-- Strings for action progress button -->
+    <string name="action_btn_progress">Validating</string>
+    <string name="action_btn_complete">Success</string>
+    <string name="action_btn_fail">Failed</string>
+    <string name="volley_connetion_timeout_msg">Connection Timed Out. Retry again !</string>
+    <string name="login_fail_mgs">Login failed !</string>
+
+
+    <!-- Strings for profile update page -->
+    <string name="profile_pic_update_ui_title">Update your profile picture</string>
+    <string name="porfile_pic_update_btn_update">Update</string>
+    <string name="profile_pic_update_btn_skip">Skip</string>
+    <string name="dialog_btn_camera">Camera</string>
+    <string name="dialog_btn_gallery">Gallery</string>
+    <string name="dialog_pic_title">Select Picture from</string>
+    <string name="camera_support_error_msg">Sorry! Your device does not support Camera</string>
+    <string name="io_error_msg_image_folder">Not able to create Application Image Gallery</string>
+    <string name="profile_pic_name">profilepic.jpg</string>
+    <string name="gallery_chooser_title">Select Picture</string>
+</resources>
